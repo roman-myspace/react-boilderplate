@@ -1,0 +1,25 @@
+.mytheme__header {
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid #eee;
+    padding: 15px 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &--logo {
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &--menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 60px;
+    }
+}

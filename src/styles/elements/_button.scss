@@ -1,8 +1,26 @@
-.mytheme__button {
-    background-color: white;
-    padding: 10px 20px;    
-    border: 1px solid #979797;
-    color: #313131;
-    border-radius: 6px;
-    cursor: pointer;
+.mytheme {
+
+    &__button_group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &__button {
+        background-color: white;
+        padding: 10px 20px;
+        border: 1px solid #979797;
+        color: #313131;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    &__button_filled {
+        background-color: #333;
+        color: #fff;
+        border: 1px solid #333;
+        font-weight: 500    ;
+    }
+
+
 }

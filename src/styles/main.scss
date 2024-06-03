@@ -5,6 +5,7 @@
 
 // base 
 @import './base/reset';
+@import './base/base';
 @import './base/typography';
 
 // elements
@@ -14,10 +15,12 @@
 @import './widgets/card';
 
 // modules
-@import './modules/navbar';
+@import './modules/header';
+@import './modules/footer';
 
-// templates
-@import './templates/header';
+// templates/layouts
+@import './templates/frontend';
+@import './templates/admin';
 
 // pages
 @import './pages/home';
